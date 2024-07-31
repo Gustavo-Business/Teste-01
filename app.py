@@ -212,10 +212,10 @@ def buscar_por_documento():
         documento = request.form['documento']
         try:
             # Configuração do banco de dados
-            server = 'financob.database.windows.net'  # Substitua pelo seu servidor
+            server = 'parcelaspagashcb.database.windows.net'  # Substitua pelo seu servidor
             database = 'financob_db'  # Substitua pelo seu banco de dados
-            username = 'adm_cobfiles'  # Substitua pelo seu usuário
-            password = '123456*dbx'  # Substitua pela sua senha
+            username = 'adminhbc'  # Substitua pelo seu usuário
+            password = '9gBHG8#bcb'  # Substitua pela sua senha
             driver = '{ODBC Driver 17 for SQL Server}'  # Certifique-se de ter o driver ODBC adequado instalado
 
             # String de conexão
